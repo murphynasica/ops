@@ -5,4 +5,4 @@ depends "apt"
 depends "vim"
 depends "ntp"
 depends "apparmor"
-
+depends "java"
