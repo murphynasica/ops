@@ -4,4 +4,6 @@ node.default['elasticsearch']['version'] = "1.4.2"
 node.default['elasticsearch']['cluster']['name'] = "nasica"
 default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['version'] = '2.4.1'
 default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['discovery']['type'] = 'ec2'
+default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['discovery']['ec2']['groups'] = 'AWS-OpsWorks-Custom-Server'
+default.elasticsearch['plugins']['elasticsearch/elasticsearch-cloud-aws']['cloud']['aws']['region'] = 'us-east-1'
 
